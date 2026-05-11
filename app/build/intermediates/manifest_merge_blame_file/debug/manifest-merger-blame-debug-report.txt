@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kumbarakala.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Internet permission for Gemini AI API calls -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:7:22-76
+14
+15    <!-- Camera permission (optional, for taking photos) -->
+16    <uses-feature
+16-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:10:5-85
+17        android:name="android.hardware.camera"
+17-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:10:19-57
+18        android:required="false" />
+18-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:10:58-82
+19
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:11:5-65
+20-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:11:22-62
+21
+22    <permission
+22-->[androidx.core:core:1.15.0] C:\Users\abhib\.gradle\caches\transforms-3\f897e763f72b82767fbbe56c9047c715\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.kumbarakala.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.15.0] C:\Users\abhib\.gradle\caches\transforms-3\f897e763f72b82767fbbe56c9047c715\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.15.0] C:\Users\abhib\.gradle\caches\transforms-3\f897e763f72b82767fbbe56c9047c715\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.kumbarakala.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.15.0] C:\Users\abhib\.gradle\caches\transforms-3\f897e763f72b82767fbbe56c9047c715\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.15.0] C:\Users\abhib\.gradle\caches\transforms-3\f897e763f72b82767fbbe56c9047c715\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:13:5-43:19
+29        android:name="com.kumbarakala.app.KumbaraKalaApp"
+29-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:14:9-39
+30        android:allowBackup="true"
+30-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:15:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.15.0] C:\Users\abhib\.gradle\caches\transforms-3\f897e763f72b82767fbbe56c9047c715\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:16:9-43
+35        android:label="@string/app_name"
+35-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:17:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:18:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:19:9-35
+38        android:theme="@style/Theme.KumbaraKala" >
+38-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:20:9-49
+39        <activity
+39-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:23:9-31:20
+40            android:name="com.kumbarakala.app.MainActivity"
+40-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:24:13-41
+41            android:exported="true"
+41-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:25:13-36
+42            android:theme="@style/Theme.KumbaraKala" >
+42-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:26:13-53
+43            <intent-filter>
+43-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:27:13-30:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:28:17-69
+44-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:28:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:29:17-77
+46-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:29:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <!-- FileProvider for sharing images -->
+51        <provider
+52            android:name="androidx.core.content.FileProvider"
+52-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:35:13-62
+53            android:authorities="com.kumbarakala.app.fileprovider"
+53-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:36:13-64
+54            android:exported="false"
+54-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:37:13-37
+55            android:grantUriPermissions="true" >
+55-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:38:13-47
+56            <meta-data
+56-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:39:13-41:54
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:40:17-67
+58                android:resource="@xml/file_paths" />
+58-->C:\Users\abhib\Desktop\Kumbara_kala\app\src\main\AndroidManifest.xml:41:17-51
+59        </provider>
+60
+61        <activity
+61-->[androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\abhib\.gradle\caches\transforms-3\a7717d96c14a09a5d792b95341ffe768\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\abhib\.gradle\caches\transforms-3\a7717d96c14a09a5d792b95341ffe768\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-tooling-android:1.7.8] C:\Users\abhib\.gradle\caches\transforms-3\a7717d96c14a09a5d792b95341ffe768\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+67            android:authorities="com.kumbarakala.app.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\abhib\.gradle\caches\transforms-3\f42f9e4675aeb9638d3edadaac5037fb\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\abhib\.gradle\caches\transforms-3\2b3a0eddea5d5892fdf4a8eee296d5aa\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\abhib\.gradle\caches\transforms-3\2b3a0eddea5d5892fdf4a8eee296d5aa\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.9.0] C:\Users\abhib\.gradle\caches\transforms-3\2b3a0eddea5d5892fdf4a8eee296d5aa\transformed\lifecycle-process-2.9.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <service
+80-->[androidx.room:room-runtime:2.6.1] C:\Users\abhib\.gradle\caches\transforms-3\731b894214b6b1b2b119918a727c881b\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.6.1] C:\Users\abhib\.gradle\caches\transforms-3\731b894214b6b1b2b119918a727c881b\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.6.1] C:\Users\abhib\.gradle\caches\transforms-3\731b894214b6b1b2b119918a727c881b\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.6.1] C:\Users\abhib\.gradle\caches\transforms-3\731b894214b6b1b2b119918a727c881b\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\abhib\.gradle\caches\transforms-3\4743261dcd666bd3c90e81a7ec2f3917\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>

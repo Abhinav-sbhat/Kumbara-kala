@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kumbarakala.app-mergeDebugResources-64:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\abhib\\.gradle\\caches\\transforms-3\\8538a973c4d94b78df9421c74784df30\\transformed\\material3-release\\res\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="terracotta">#C75B39</color>
+    <color name="deep_brown">#5D3A1A</color>
+    <color name="warm_cream">#FFF8F0</color>
+    <color name="soft_beige">#F5E6D3</color>
+    <color name="gold">#D4A646</color>
+    <color name="dark_brown">#3E2723</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#E53935</color>
+</resources>

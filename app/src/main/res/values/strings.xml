@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Kumbara-Kala</string>
+    <string name="app_tagline">Artisan Clay Craft</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="village_town">Village / Town</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_pots">Pots</string>
+    <string name="category_lamps">Lamps</string>
+    <string name="category_utensils">Utensils</string>
+    <string name="category_decor">Decor</string>
+
+    <!-- Product -->
+    <string name="add_product">Add Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="save_product">Save Product</string>
+
+    <!-- Card -->
+    <string name="generate_story_card">Generate Story Card</string>
+    <string name="generate_card">Generate Card</string>
+    <string name="share_whatsapp">Share on WhatsApp</string>
+    <string name="save_gallery">Save to Gallery</string>
+    <string name="card_preview">Card Preview</string>
+    <string name="my_cards">My Cards</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="my_story">My Story</string>
+    <string name="bio">Bio / Heritage Story</string>
+    <string name="experience">Years of Experience</string>
+    <string name="specialty">Specialty</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="logout">Logout</string>
+
+    <!-- Navigation -->
+    <string name="catalog">Catalog</string>
+</resources>

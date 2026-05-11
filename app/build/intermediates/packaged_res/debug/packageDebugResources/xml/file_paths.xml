@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal storage for shared card images -->
+    <cache-path name="shared_cards" path="cards/" />
+    <!-- Internal files for product photos and profile photos -->
+    <files-path name="product_photos" path="photos/products/" />
+    <files-path name="profile_photos" path="photos/profiles/" />
+    <files-path name="card_images" path="photos/cards/" />
+    <!-- External cache for temporary images -->
+    <external-cache-path name="external_cache" path="." />
+</paths>
